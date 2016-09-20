@@ -4,35 +4,20 @@ import java.util.Map;
 /**
  * Created by Museum2015 on 14/9/2016.
  */
+
+/**
+ * Main class that represents the map of the adventure game.
+ * The initialRoom variable represents where the play is initially
+ * The array of rooms variable represents all the rooms that the player can visit in the game.
+ */
 public class RoomRoute {
 
     private String initialRoom;
-    private Rooms[] rooms;
+    private Room[] rooms;
 
     public String getInitialRoom() {return initialRoom;}
-    public Rooms[] getRooms() {return rooms;}
+    public Room[] getRooms() {return rooms;}
 
-
-    public class Rooms{
-
-        private String name;
-        private String description;
-        private Directions [] directions;
-
-
-        public String getRoomName() {return name;}
-        public String getRoomDescription() {return description;}
-        public Directions[] getDirections() {return directions;}
-
-    }
-
-    public class Directions{
-        private String direction;
-        private String room;
-
-        public String getDirection(){return direction;}
-        public String getRoom(){return room;}
-    }
 
 
 }

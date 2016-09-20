@@ -1,0 +1,45 @@
+{
+  "initialRoom": "MatthewsStreet",
+  "rooms": [
+    {
+      "name": "MatthewsStreet",
+      "description": "You are on Matthews, outside the Siebel Center",
+      "directions": [
+        {
+          "direction": "East",
+          "room": "SiebelEntry"
+        }
+      ]
+    },
+    {
+      "name": "AcmOffice",
+      "description": "You are in the ACM office.  There are lots of friendly ACM people.",
+      "directions": [
+        {
+          "direction": "South",
+          "room": "SiebelEntry"
+        }
+      ]
+    },
+    {
+      "name": "SiebelNorthHallway",
+      "description": "You are in the north hallway.  You can see Siebel 1105 and Siebel 1112.",
+      "directions": [
+        {
+          "direction": "South",
+          "room": "SiebelEntry"
+        }
+      ]
+    },
+    {
+      "name": "SiebelEastHallway",
+      "description": "You are in the east hallway.  You can see Einstein Bros' Bagels.",
+      "directions": [
+        {
+          "direction": "West",
+          "room": "SiebelEntry"
+        }
+      ]
+    }
+  ]
+}
